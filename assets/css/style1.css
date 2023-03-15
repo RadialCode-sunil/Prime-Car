@@ -72,9 +72,9 @@
 
 
     /* colors  */
-    --color-white: #FFFFFF;
-    --color-black: #161616;
-    --color-lightblack: #1A191A;
+    --color-white: #FFFFFF !important;
+    --color-black: #161616 !important;
+    --color-lightblack: #1A191A !important;
 
 }
 
@@ -83,12 +83,12 @@
     color: var(--color-white) !important;
 }
 
-.color_black {
-    color: var(--color-black) !important;
+.bg_color_black {
+    background: var(--color-black) !important;
 }
 
-.color_lightblack {
-    color: var(--color-lightblack) !important;
+.bg_color_lightblack {
+    background: var(--color-lightblack) !important;
 }
 
 /* font sizes  */
