@@ -9,9 +9,8 @@
 }
 
 @font-face {
-    font-family: 'American Captain';
-    src: url(../fonts/American\ Captain.otf);
-    src: url(../fonts/American\ Captain.ttf);
+    font-family: 'American';
+    src: url(../font/American\ Captain.otf);
 }
 
 @font-face {
@@ -19,7 +18,9 @@
     src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYBOLD.OTF);
     src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYMEDIUM.OTF);
     src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYREGULAR.OTF);
-}@font-face {
+}
+
+@font-face {
     font-family: 'Helvetica';
     src: url(../fonts/Neue\ Helvetica\ Condensed\ BQ\ Regular.otf);
 }
@@ -27,12 +28,13 @@
 .ff_Helvetica {
     font-family: 'Helvetica';
 }
+
 .ff_sf_pro {
     font-family: 'sf-pro-display';
 }
 
-.ff_american {      
-    font-family: 'American Captain';
+.ff_american {
+    font-family: 'American';
 }
 
 :root {
@@ -146,8 +148,9 @@
 .fw_400 {
     font-weight: 400;
 }
+
 /* height  */
-.h_377{
+.h_377 {
     height: 377px;
 }
 
