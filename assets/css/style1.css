@@ -13,8 +13,9 @@
     src: url(../font/American\ Captain.otf);
     src: url(../font/American\ Captain.ttf);
 }
+
 @font-face {
-    font-family:'SF_Pro_Display';
+    font-family: 'SF_Pro_Display';
     src: url(../font/SFPRODISPLAYBLACKITALIC.OTF);
     src: url(../font/SFPRODISPLAYBOLD.OTF);
     src: url(../font/SFPRODISPLAYHEAVYITALIC.OTF);
@@ -25,6 +26,7 @@
     src: url(../font/SFPRODISPLAYTHINITALIC.OTF);
     src: url(../font/SFPRODISPLAYULTRALIGHTITALIC.OTF);
 }
+
 @font-face {
     font-family: Helvetica;
     src: url(../font/Helvetica\ CE\ Bold\ Condensed\ Oblique.otf);
@@ -39,19 +41,22 @@
     src: url(../font/Helvetica\ RomanItalic.ttf);
     src: url(../font/Helvetica\ Ultra\ Compressed.otf);
 }
-.ff_American_Captain{
- font-family: 'American Captain , serif';
+
+.ff_American_Captain {
+    font-family: 'American Captain , serif';
 }
-.ff_SF_Pro_Display{
+
+.ff_SF_Pro_Display {
     font-family: 'SF Pro Display , serif';
 }
-.ff_Helvetica{
-    font-family: Helvetica , serif;
+
+.ff_Helvetica {
+    font-family: Helvetica, serif;
 }
 
 :root {
     /* font size  */
-    --fs-9xl:247px;
+    --fs-9xl: 247px;
     --fs-8xl: 130px;
     --fs-7xl: 120px;
     --fs-6xl: 110px;
@@ -66,27 +71,31 @@
     --fs-xsm: 15px;
 
 
-/* colors  */
---color-white : #FFFFFF;
---color-black : #161616;
---color-lightblack : #1A191A;
+    /* colors  */
+    --color-white: #FFFFFF;
+    --color-black: #161616;
+    --color-lightblack: #1A191A;
 
 }
+
 /* colors  */
-.color_white{
+.color_white {
     color: var(--color-white);
 }
-.color_black{
+
+.color_black {
     color: var(--color-black);
 }
-.color_lightblack{
+
+.color_lightblack {
     color: var(--color-lightblack);
 }
 
 /* font sizes  */
-.fs_9xl{
+.fs_9xl {
     font-size: var(--fs-9xl);
 }
+
 .fs_8xl {
     font-size: var(--fs-8xl);
 }
@@ -151,4 +160,15 @@
 
 .fw_400 {
     font-weight: 400;
+}
+
+/* media screen 1400  */
+@media (min-width:1400px) {
+    .container {
+        max-width:1720px !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
