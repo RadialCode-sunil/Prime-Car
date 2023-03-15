@@ -7,3 +7,148 @@
     text-decoration: none !important;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'American_Captain';
+    src: url(../font/American\ Captain.otf);
+    src: url(../font/American\ Captain.ttf);
+}
+@font-face {
+    font-family:'SF_Pro_Display';
+    src: url(../font/SFPRODISPLAYBLACKITALIC.OTF);
+    src: url(../font/SFPRODISPLAYBOLD.OTF);
+    src: url(../font/SFPRODISPLAYHEAVYITALIC.OTF);
+    src: url(../font/SFPRODISPLAYLIGHTITALIC.OTF);
+    src: url(../font/SFPRODISPLAYMEDIUM.OTF);
+    src: url(../font/SFPRODISPLAYREGULAR.OTF);
+    src: url(../font/SFPRODISPLAYSEMIBOLDITALIC.OTF);
+    src: url(../font/SFPRODISPLAYTHINITALIC.OTF);
+    src: url(../font/SFPRODISPLAYULTRALIGHTITALIC.OTF);
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(../font/Helvetica\ CE\ Bold\ Condensed\ Oblique.otf);
+    src: url(../font/Helvetica\ CE\ Bold\ Narrow\ Oblique.otf);
+    src: url(../font/Helvetica\ CE\ Medium.otf);
+    src: url(../font/Helvetica\ CE\ Oblique.otf);
+    src: url(../font/Helvetica\ Condensed\ Oblique.otf);
+    src: url(../font/Helvetica\ Light\ Condensed.otf);
+    src: url(../font/Helvetica\ Light\ Condensed\ Oblique.otf);
+    src: url(../font/Helvetica\ Medium\ Condensed.otf);
+    src: url(../font/Helvetica\ Roman.ttf);
+    src: url(../font/Helvetica\ RomanItalic.ttf);
+    src: url(../font/Helvetica\ Ultra\ Compressed.otf);
+}
+.ff_American_Captain{
+ font-family: 'American Captain , serif';
+}
+.ff_SF_Pro_Display{
+    font-family: 'SF Pro Display , serif';
+}
+.ff_Helvetica{
+    font-family: Helvetica , serif;
+}
+
+:root {
+    /* font size  */
+    --fs-9xl:247px;
+    --fs-8xl: 130px;
+    --fs-7xl: 120px;
+    --fs-6xl: 110px;
+    --fs-5xl: 100px;
+    --fs-4xl: 56px;
+    --fs-3xl: 35px;
+    --fs-2xl: 32px;
+    --fs-xl: 30px;
+    --fs-lg: 24px;
+    --fs-md: 20px;
+    --fs-sm: 17px;
+    --fs-xsm: 15px;
+
+
+/* colors  */
+--color-white : #FFFFFF;
+--color-black : #161616;
+--color-lightblack : #1A191A;
+
+}
+/* colors  */
+.color_white{
+    color: var(--color-white);
+}
+.color_black{
+    color: var(--color-black);
+}
+.color_lightblack{
+    color: var(--color-lightblack);
+}
+
+/* font sizes  */
+.fs_9xl{
+    font-size: var(--fs-9xl);
+}
+.fs_8xl {
+    font-size: var(--fs-8xl);
+}
+
+.fs_7xl {
+    font-size: var(--fs-7xl);
+}
+
+.fs_6xl {
+    font-size: var(--fs-6xl);
+}
+
+.fs_5xl {
+    font-size: var(--fs-5xl);
+}
+
+.fs_4xl {
+    font-size: var(--fs-4xl);
+}
+
+.fs_3xl {
+    font-size: var(--fs-3xl);
+}
+
+.fs_2xl {
+    font-size: var(--fs-2xl);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_xsm {
+    font-size: var(--fs-xsm);
+}
+
+
+/* font weight  */
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
