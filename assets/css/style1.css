@@ -9,49 +9,30 @@
 }
 
 @font-face {
-    font-family: 'American_Captain';
-    src: url(../font/American\ Captain.otf);
-    src: url(../font/American\ Captain.ttf);
+    font-family: 'American Captain';
+    src: url(../fonts/American\ Captain.otf);
+    src: url(../fonts/American\ Captain.ttf);
 }
 
 @font-face {
-    font-family: 'SF_Pro_Display';
-    src: url(../font/SFPRODISPLAYBLACKITALIC.OTF);
-    src: url(../font/SFPRODISPLAYBOLD.OTF);
-    src: url(../font/SFPRODISPLAYHEAVYITALIC.OTF);
-    src: url(../font/SFPRODISPLAYLIGHTITALIC.OTF);
-    src: url(../font/SFPRODISPLAYMEDIUM.OTF);
-    src: url(../font/SFPRODISPLAYREGULAR.OTF);
-    src: url(../font/SFPRODISPLAYSEMIBOLDITALIC.OTF);
-    src: url(../font/SFPRODISPLAYTHINITALIC.OTF);
-    src: url(../font/SFPRODISPLAYULTRALIGHTITALIC.OTF);
-}
-
-@font-face {
-    font-family: Helvetica;
-    src: url(../font/Helvetica\ CE\ Bold\ Condensed\ Oblique.otf);
-    src: url(../font/Helvetica\ CE\ Bold\ Narrow\ Oblique.otf);
-    src: url(../font/Helvetica\ CE\ Medium.otf);
-    src: url(../font/Helvetica\ CE\ Oblique.otf);
-    src: url(../font/Helvetica\ Condensed\ Oblique.otf);
-    src: url(../font/Helvetica\ Light\ Condensed.otf);
-    src: url(../font/Helvetica\ Light\ Condensed\ Oblique.otf);
-    src: url(../font/Helvetica\ Medium\ Condensed.otf);
-    src: url(../font/Helvetica\ Roman.ttf);
-    src: url(../font/Helvetica\ RomanItalic.ttf);
-    src: url(../font/Helvetica\ Ultra\ Compressed.otf);
-}
-
-.ff_American_Captain {
-    font-family: 'American Captain , serif';
-}
-
-.ff_SF_Pro_Display {
-    font-family: 'SF Pro Display , serif';
+    font-family: 'sf-pro-display';
+    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYBOLD.OTF);
+    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYMEDIUM.OTF);
+    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYREGULAR.OTF);
+}@font-face {
+    font-family: 'Helvetica';
+    src: url(../fonts/Neue\ Helvetica\ Condensed\ BQ\ Regular.otf);
 }
 
 .ff_Helvetica {
-    font-family: Helvetica, serif;
+    font-family: 'Helvetica';
+}
+.ff_sf_pro {
+    font-family: 'sf-pro-display';
+}
+
+.ff_american {
+    font-family: 'American Captain';
 }
 
 :root {
@@ -75,12 +56,16 @@
     --color-white: #FFFFFF !important;
     --color-black: #161616 !important;
     --color-lightblack: #1A191A !important;
-
+    --color-lightwhite: #BDBDBD !important;
 }
 
 /* colors  */
 .color_white {
     color: var(--color-white) !important;
+}
+
+.color_lightwhite {
+    color: var(--color-lightwhite) !important;
 }
 
 .bg_color_black {
@@ -165,7 +150,7 @@
 /* media screen 1400  */
 @media (min-width:1400px) {
     .container {
-        max-width:1720px !important;
+        max-width: 1720px !important;
         margin-left: auto;
         margin-right: auto;
         padding-left: 12px;
