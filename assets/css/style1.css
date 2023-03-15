@@ -146,6 +146,10 @@
 .fw_400 {
     font-weight: 400;
 }
+/* height  */
+.h_377{
+    height: 377px;
+}
 
 /* media screen 1400  */
 @media (min-width:1400px) {
