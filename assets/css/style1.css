@@ -80,15 +80,15 @@
 
 /* colors  */
 .color_white {
-    color: var(--color-white);
+    color: var(--color-white) !important;
 }
 
 .color_black {
-    color: var(--color-black);
+    color: var(--color-black) !important;
 }
 
 .color_lightblack {
-    color: var(--color-lightblack);
+    color: var(--color-lightblack) !important;
 }
 
 /* font sizes  */
