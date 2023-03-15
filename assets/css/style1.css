@@ -15,9 +15,9 @@
 
 @font-face {
     font-family: 'sf-pro-display';
-    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYBOLD.OTF);
-    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYMEDIUM.OTF);
-    src: url(../fonts/sf-pro-display-cufonfonts-1/SFPRODISPLAYREGULAR.OTF);
+   src: url(../font/SFPRODISPLAYBOLD.OTF);
+   src: url(../font/SFPRODISPLAYMEDIUM.OTF);
+   src: url(../font/SFPRODISPLAYREGULAR.OTF);
 }
 
 @font-face {
