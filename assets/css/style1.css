@@ -393,16 +393,12 @@
 
 /* media screen 992  */
 @media (max-width:992px) {
-<<<<<<< HEAD
   
-    .w_50_lg{
-=======
     .dis_none_lg {
         display: none;
     }
 
     .w_50_lg {
->>>>>>> 6a712307608990af8bf3be097ecd8d6c50fa226e
         width: 50% !important;
     }
 }
