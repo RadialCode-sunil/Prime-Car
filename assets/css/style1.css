@@ -393,13 +393,8 @@
 
 /* media screen 992  */
 @media (max-width:992px) {
-  
-    .dis_none_lg {
-        display: none;
-    }
 
     .w_50_lg {
         width: 50% !important;
     }
 }
-
