@@ -149,15 +149,18 @@
     font-weight: 400;
 }
 
-/* height  */
+/* height and width */
 .h_377 {
     height: 377px;
+}
+.mw_417{
+    max-width: 417px;
 }
 
 /* media screen 1400  */
 @media (min-width:1400px) {
     .container {
-        max-width: 1720px !important;
+        max-width: 1620px !important;
         margin-left: auto;
         margin-right: auto;
         padding-left: 12px;
