@@ -38,12 +38,12 @@ header {
 }
 
 .hero_btn:hover path {
-    transform: translateY(-10px);
+    transform: translateY(-2px);
+        
 }
 
 /* All */
 .all_box {
-    background: rgba(0, 221, 168, 0.5);
     border-radius: 16px;
     padding: 45px;
     height: 100%;
