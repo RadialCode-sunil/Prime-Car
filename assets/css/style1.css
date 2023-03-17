@@ -269,6 +269,7 @@
         --fs-7xl: 110px;
         --fs-6xl: 100px;
         --fs-5xl: 90px;
+        --fs-3xl: 25px;
     }
 }
 
@@ -279,7 +280,8 @@
     :root {
         --fs-8xl: 100px;
         --fs-7xl: 99px;
-
+        --fs-3xl: 22px;
+        --fs-sm: 15px;
     }
 }
 
@@ -287,7 +289,6 @@
     :root {
         /* font size  */
         --fs-4xl: 52px;
-        --fs-3xl: 30px;
         --fs-2xl: 30px;
         --fs-xl: 28px;
         --fs-lg: 22px;
