@@ -57,8 +57,26 @@ header {
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
+
+.slider_box_btn {
+    border: 2px solid var(--color-white);
+    border-radius: 8px;
+    padding: 8px 28px;
+}
+
+.slider_box {
+    background-color: #0c0000c1;
+    width: 100%;
+    height: 100%;
+    top: -380px;
+}
+
+.slider_shadow:hover .slider_box {
+    top: 0px;
+    transition: 0.5s;
+}
+
 
 
 @media (max-width:992px) {
