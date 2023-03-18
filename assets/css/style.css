@@ -382,6 +382,16 @@ header {
 .social_icon:hover {
     transform: translateY(-10%);
 }
+/* play button  */
+.play_button {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
 
 
 /* root media screen  */
@@ -494,6 +504,16 @@ header {
     .w_50_lg {
         width: 50% !important;
     }
+         /* play button  */
+         .play_button {
+             background: rgba(255, 255, 255, 0.3);
+             backdrop-filter: blur(4px);
+             /* Note: backdrop-filter has minimal browser support */
+    
+             border-radius: 100px;
+             width: 80px;
+             height: 80px;
+         }
 }
 
 @media (min-width:576px) {
