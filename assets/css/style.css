@@ -383,6 +383,16 @@ header {
     transform: translateY(-10%);
 }
 
+/* play button  */
+.play_button {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 100px;
+    width: 110px;
+    height: 110px;
+}
 
 /* root media screen  */
 
@@ -513,14 +523,15 @@ header {
         transform: scale(1.1);
         transition: all 0.5s linear;
     }
-           /* play button  */
-           .play_button {
-               background: rgba(255, 255, 255, 0.3);
-               backdrop-filter: blur(4px);
-               /* Note: backdrop-filter has minimal browser support */
-    
-               border-radius: 100px;
-               width: 60px;
-               height: 60px;
-           }
+
+    /* play button  */
+    .play_button {
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(4px);
+        /* Note: backdrop-filter has minimal browser support */
+
+        border-radius: 100px;
+        width: 60px;
+        height: 60px;
+    }
 }
