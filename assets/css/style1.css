@@ -56,6 +56,7 @@
 
     /* colors  */
     --color-white: #FFFFFF;
+    --color-gray: #373737;
     --color-black: #161616;
     --color-lightblack: #1A191A;
     --color-lightwhite: #BDBDBD;
@@ -67,6 +68,9 @@
 /* colors  */
 .color_white {
     color: var(--color-white) !important;
+}
+.color_gray {
+    color: var(--color-gray) !important;
 }
 
 .color_lightwhite {

@@ -31,39 +31,55 @@
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
 
-                    <a href="#" class="ff_american fw_400 fs_4xl color_white nav_logo">Prime Car</a>
+                    <a href="#"
+                        class="ff_american fw_400 fs_4xl color_white z_index_2 d-inline-block">Prime
+                        Car</a>
 
 
                     <ul class="d-flex list-unstyled mb-0" id="show">
-                        <li><a href="#" class="ff_sf_pro fw_600 fs_lg color_white">Home</a></li>
-                        <li><a href="#" class="ff_sf_pro fw_600 fs_lg ps-4 color_white">About</a></li>
-                        <li><a href="#" class="ff_sf_pro fw_600 fs_lg ps-4 color_white">Benefits</a></li>
-                        <li><a href="#" class="ff_sf_pro fw_600 fs_lg ps-4 color_white">Cars</a></li>
-                        <li><a href="#" class="ff_sf_pro fw_600 fs_lg color_white nav_btn d-lg-none">Contact Us</a></li>
+                        <li>
+                            <a href="#"
+                                class="ff_sf_pro fw_600 fs_lg color_white nav_text_effect position-relative">Home</a>
+                        </li>
+                        <li class="ps-lg-4">
+                            <a href="#"
+                                class="ff_sf_pro fw_600 fs_lg color_white nav_text_effect position-relative">About</a>
+                        </li>
+                        <li class="ps-lg-4">
+                            <a href="#"
+                                class="ff_sf_pro fw_600 fs_lg color_white nav_text_effect position-relative">Benefits</a>
+                        </li>
+                        <li class="ps-lg-4">
+                            <a href="#"
+                                class="ff_sf_pro fw_600 fs_lg color_white nav_text_effect position-relative">Cars</a>
+                        </li>
+                        <li>
+                            <a href="#" class="ff_sf_pro fw_600 fs_lg color_white nav_btn d-lg-none">Contact Us</a>
+                        </li>
                     </ul>
                     <span class="d-flex flex-column d-lg-none" onclick="navshow()">
                         <span class="nav_line"></span>
                         <span class="nav_line"></span>
                         <span class="nav_line"></span>
                     </span>
-                    <a href="#" class="ff_sf_pro fw_600 fs_lg color_white nav_btn d-none d-lg-block">Contact Us</a>
+                    <a href="#" class="ff_sf_pro fw_600 fs_lg color_white nav_btn  d-none d-lg-block">Contact Us</a>
 
 
                 </div>
         </nav>
         <!-- hiro -->
-        <div class="container flex-grow-1 d-flex justify-content-end align-items-center">
+        <div class="container flex-grow-1 d-flex justify-content-sm-end align-items-center">
             <div>
 
-                <h1 class="ff_american fw_400 fs_8xl color_white hiro_h1_w_sm ms-auto text-end">
+                <h1 class="ff_american fw_400 fs_8xl color_white hiro_h1_w_sm ms-auto text-center text-sm-end">
                     More economy, same speed
                 </h1>
 
-                <p class="ff_sf_pro fw_600 fs_2xl color_white hiro_p_w_sm ms-auto text-end">
+                <p class="ff_sf_pro fw_600 fs_2xl color_white hiro_p_w_sm ms-auto text-center text-sm-end">
                     The most beloved cars of the moment for those who want to ride in style without spending too much
                 </p>
-                <div class="d-flex justify-content-end">
-                    <a href="#" class="ff_sf_pro fw_600 fs_lg color_white hero_btn d-inline-block">Discover <span
+                <div class="d-flex justify-content-center justify-content-sm-end">
+                    <a href="#" class="ff_sf_pro fw_600 fs_lg color_white hero_btn mb-5 d-inline-block">Discover <span
                             class="ps-2"><svg width="16" height="17" viewBox="0 0 16 17" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M15 1.5L1 15.5M3.33333 1.5H15V13.1667" stroke="white" stroke-width="2"
@@ -76,8 +92,8 @@
         </div>
     </header>
     <!-- About -->
-    <section class="bg_color_black py-4">
-        <div class="container">
+    <section class="bg_color_black py-5">
+        <div class="container position-relative z_index_3">
             <h2 class="ff_american fw_400 fs_8xl color_white text-center">About Us</h2>
             <div class="row align-items-center flex-column-reverse flex-lg-row pt-3 pt-lg-4">
                 <div class="col-12 col-lg-6 pt-4 pt-lg-0">
@@ -101,15 +117,21 @@
 
                 </div>
                 <div class="col-12 col-lg-6">
-                    <img class="w-100" src="./assets/img/png/About_img.png" alt="car">
+                    <img class="w-100 z_index_2 position-relative" src="./assets/img/png/About_img.png" alt="car">
 
                 </div>
             </div>
+
+            <p class="ff_sf_pro fw_700 fs_9xl opacity_3 color_gray position-absolute  d-none d-sm-block about_img ">
+                about us</p>
+
         </div>
     </section>
     <!-- All -->
-    <section class="bg_color_lightblack">
-        <div class="container">
+    <section class="bg_color_lightblack py-5 z_index_3 position-relative overflow-hidden">
+        <img class="position-absolute all_img_line_1" src="./assets/img/png/Lines_1.png" alt="image">
+        <img class="position-absolute all_img_line_2 d-none d-xxl-block" src="./assets/img/png/Lines_2.png" alt="image">
+        <div class="container py-4">
             <h2 class="ff_american fw_400 fs_6xl color_white text-center All_h2_w_sm mx-auto">
                 All the benefits you will get when you shop with us
             </h2>
@@ -118,7 +140,8 @@
             </p>
             <div class="row justify-content-center pt-5">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="all_box bg_color_green d-flex flex-column justify-content-center position-relative">
+                    <div
+                        class="all_box bg_color_green d-flex flex-column justify-content-center position-relative mx-3">
                         <img class="position-absolute all_img_1" src="./assets/img/png/map_location.png"
                             alt="Map location">
                         <div class="pt-5">
@@ -138,7 +161,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 pt-5 pt-md-0 mt-5 mt-md-0">
-                    <div class="all_box bg_color_red d-flex flex-column align-items-center position-relative">
+                    <div class="all_box bg_color_red d-flex flex-column align-items-center position-relative mx-3">
                         <img class="position-absolute all_img_1" src="./assets/img/png/day.png" alt="Day">
                         <div class="pt-5">
                             <p class="ff_sf_pro fw_700 fs_2xl color_white text-center all_box_p_day px-2 pt-5 mt-5">
@@ -155,7 +178,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 pt-5 pt-lg-0 mt-5 mt-lg-0">
-                    <div class="all_box bg_color_blue d-flex flex-column align-items-center position-relative">
+                    <div class="all_box bg_color_blue d-flex flex-column align-items-center position-relative mx-3">
                         <img class="position-absolute all_img_1" src="./assets/img/png/keys_car.png" alt="keys car">
                         <div class="pt-5">
                             <p class="ff_sf_pro fw_700 fs_2xl color_white text-center all_box_p_day pt-5 mt-5">
@@ -173,13 +196,16 @@
                 </div>
             </div>
         </div>
+
     </section>
     <!--  cars slider -->
     <section class="bg_color_black overflow-hidden">
         <div class="container">
-            <h2 class="ff_american fw_400 fs_6xl color_white text-center text-lg-start">The cars that are hot right now
+            <h2 class="ff_american fw_400 fs_6xl color_white text-center text-lg-start pt-5">The cars that are hot right
+                now
             </h2>
-            <p class="ff_sf_pro fw_400 fs_lg color_white text-center text-lg-start">Buy yours and be the most stylish in
+            <p class="ff_sf_pro fw_400 fs_lg color_white text-center text-lg-start pb-4">Buy yours and be the most
+                stylish in
                 the neighborhood</p>
         </div>
         <div class="slider ">
@@ -323,6 +349,7 @@
             autoplay: true,
             autoplaySpeed: 0,
             speed: 3000,
+            pauseOnHover: false,
 
             responsive: [
                 {
@@ -355,8 +382,6 @@
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,
-                        centerMode: false,
-                        centerPadding: "0px",
                     }
                 }
             ]
@@ -373,7 +398,9 @@
             autoplay: true,
             autoplaySpeed: 0,
             speed: 3000,
-
+            pauseOnHover: false,
+            rtl: false,
+    
             responsive: [
                 {
                     breakpoint: 1400,
@@ -405,8 +432,6 @@
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,
-                        centerMode: false,
-                        centerPadding: "0px",
                     }
                 }
             ]
