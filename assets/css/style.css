@@ -372,6 +372,7 @@ header {
 .border_submit:hover {
     transform: translateY(10%);
 }
+
 /* outline  */
 .outline_none {
     outline: none;
@@ -381,6 +382,7 @@ header {
 .social_icon:hover {
     transform: translateY(-10%);
 }
+
 
 /* root media screen  */
 
@@ -511,4 +513,14 @@ header {
         transform: scale(1.1);
         transition: all 0.5s linear;
     }
+           /* play button  */
+           .play_button {
+               background: rgba(255, 255, 255, 0.3);
+               backdrop-filter: blur(4px);
+               /* Note: backdrop-filter has minimal browser support */
+    
+               border-radius: 100px;
+               width: 60px;
+               height: 60px;
+           }
 }
