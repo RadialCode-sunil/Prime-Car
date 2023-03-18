@@ -9,7 +9,7 @@ header {
 
 /* navbar */
 
-.nav_text_effect::after {
+.text_effect::after {
     content: '';
     position: absolute;
     background: var(--color-white);
@@ -17,10 +17,10 @@ header {
     width: 0px;
     bottom: -5px;
     left: 0;
-    transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 0.5s linear;
 }
 
-.nav_text_effect:hover::after {
+.text_effect:hover::after {
     width: 100%;
 }
 
