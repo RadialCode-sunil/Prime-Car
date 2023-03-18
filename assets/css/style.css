@@ -1,3 +1,172 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'American';
+    src: url(../font/American\ Captain.otf);
+}
+
+@font-face {
+    font-family: 'sf-pro-display';
+    src: url(../font/SFPRODISPLAYBOLD.OTF);
+    src: url(../font/SFPRODISPLAYMEDIUM.OTF);
+    src: url(../font/SFPRODISPLAYREGULAR.OTF);
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url(../fonts/Neue\ Helvetica\ Condensed\ BQ\ Regular.otf);
+}
+
+.ff_Helvetica {
+    font-family: 'Helvetica';
+}
+
+.ff_sf_pro {
+    font-family: 'sf-pro-display';
+}
+
+.ff_american {
+    font-family: 'American';
+}
+
+:root {
+    /* font size  */
+    --fs-9xl: 180px;
+    --fs-8xl: 130px;
+    --fs-7xl: 120px;
+    --fs-6xl: 110px;
+    --fs-5xl: 100px;
+    --fs-4xl: 56px;
+    --fs-3xl: 35px;
+    --fs-2xl: 32px;
+    --fs-xl: 30px;
+    --fs-lg: 24px;
+    --fs-md: 20px;
+    --fs-sm: 17px;
+    --fs-xsm: 15px;
+
+    /* colors  */
+    --color-white: #FFFFFF;
+    --color-gray: #373737;
+    --color-black: #161616;
+    --color-lightblack: #1A191A;
+    --color-lightwhite: #BDBDBD;
+    --color-green: #00DDA880;
+    --color-red: #CF292999;
+    --color-blue: #0058DD99;
+}
+
+/* colors  */
+.color_white {
+    color: var(--color-white) !important;
+}
+
+.color_gray {
+    color: var(--color-gray) !important;
+}
+
+.color_lightwhite {
+    color: var(--color-lightwhite) !important;
+}
+
+.bg_color_black {
+    background: var(--color-black) !important;
+}
+
+.bg_color_lightblack {
+    background: var(--color-lightblack) !important;
+}
+
+.bg_color_green {
+    background: var(--color-green) !important;
+}
+
+.bg_color_red {
+    background: var(--color-red) !important;
+}
+
+.bg_color_blue {
+    background: var(--color-blue) !important;
+}
+
+/* font sizes  */
+.fs_9xl {
+    font-size: var(--fs-9xl);
+}
+
+.fs_8xl {
+    font-size: var(--fs-8xl);
+}
+
+.fs_7xl {
+    font-size: var(--fs-7xl);
+}
+
+.fs_6xl {
+    font-size: var(--fs-6xl);
+}
+
+.fs_5xl {
+    font-size: var(--fs-5xl);
+}
+
+.fs_4xl {
+    font-size: var(--fs-4xl);
+}
+
+.fs_3xl {
+    font-size: var(--fs-3xl);
+}
+
+.fs_2xl {
+    font-size: var(--fs-2xl);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_xsm {
+    font-size: var(--fs-xsm);
+}
+
+/* font weight  */
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+
 /* header bg */
 header {
     background-image: url(../img/png/Header_bg.png);
@@ -50,12 +219,10 @@ header {
 
 .hero_btn:hover svg {
     transform: translateY(-4px);
-
 }
 
 .hero_btn:hover {
     background: var(--color-red);
-
 }
 
 /* about */
@@ -91,7 +258,6 @@ header {
     transform: translate(-50%, -50%);
 }
 
-
 .slider_box_btn {
     border: 2px solid var(--color-white);
     border-radius: 8px;
@@ -106,12 +272,203 @@ header {
     transition: all 2s cubic-bezier(0.2, 1, 0.2, 1);
 }
 
-
 .slider_shadow:hover .slider_box {
     top: 0px;
 }
 
+/* Ravi */
 
+/* height and width */
+.h_377 {
+    height: 377px;
+}
+
+.mw_417 {
+    max-width: 417px;
+}
+
+.mw_310 {
+    max-width: 310px;
+}
+
+/* top bottom left right  */
+.left_50 {
+    left: 50%;
+}
+
+.top_50 {
+    top: 50%;
+}
+
+.top_7 {
+    top: 7%;
+}
+
+.left_-13 {
+    left: -13%;
+}
+
+.right_-3 {
+    right: -3%;
+}
+
+.bottom_-3-5 {
+    bottom: -3.5%;
+}
+
+.left_-1 {
+    left: -1%;
+}
+
+.Contact {
+    top: 5%;
+}
+
+/* z index  */
+.z_index_1 {
+    z-index: 1;
+}
+
+.z_index_2 {
+    z-index: 2;
+}
+
+.z_index_3 {
+    z-index: 3;
+}
+
+/* transform translate  */
+.transform_play_button {
+    transform: translate(-50%, -50%);
+}
+
+/* opacity  */
+.opacity_3 {
+    opacity: 0.3;
+}
+
+.opacity_5 {
+    opacity: 0.5;
+}
+
+.opacity_2 {
+    opacity: 0.2;
+}
+
+/* border  */
+
+.border_bottom_input {
+    border-bottom: 1px solid #F2F2F2 !important;
+}
+
+.border_bottom_country {
+    border-bottom: 2px solid #F2F2F2 !important;
+}
+
+.border_submit {
+    border: 2px solid #F2F2F2 !important;
+}
+
+.border_submit:hover {
+    transform: translateY(10%);
+}
+/* outline  */
+.outline_none {
+    outline: none;
+}
+
+/* social icon  */
+.social_icon:hover {
+    transform: translateY(-10%);
+}
+
+/* root media screen  */
+
+@media (max-width:1400px) {
+    :root {
+        /* font size  */
+        --fs-9xl: 160px;
+        --fs-8xl: 120px;
+        --fs-7xl: 110px;
+        --fs-6xl: 100px;
+        --fs-5xl: 90px;
+        --fs-3xl: 25px;
+    }
+}
+
+@media (max-width:1200px) {
+
+    /* font size  */
+    :root {
+        --fs-9xl: 120px;
+        --fs-8xl: 100px;
+        --fs-7xl: 99px;
+        --fs-3xl: 22px;
+        --fs-sm: 15px;
+    }
+}
+
+@media (max-width:992px) {
+    :root {
+        /* font size  */
+        --fs-4xl: 52px;
+        --fs-2xl: 30px;
+        --fs-xl: 28px;
+        --fs-lg: 22px;
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+        /* font size  */
+        --fs-8xl: 64px;
+        --fs-7xl: 60px;
+        --fs-6xl: 53px;
+        --fs-5xl: 50px;
+        --fs-4xl: 45px;
+        --fs-3xl: 38px;
+        --fs-2xl: 22px;
+        --fs-xl: 20px;
+        --fs-lg: 19px;
+        --fs-md: 17px;
+        --fs-sm: 15px;
+        --fs-xsm: 13px;
+    }
+}
+
+/* media screen  */
+/* media screen 1500  */
+@media (max-width:1500px) {
+    .Contact {
+        top: 5%;
+    }
+}
+
+/* media screen 1400  */
+@media (min-width:1400px) {
+    .container {
+        max-width: 1620px !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (max-width:1399px) {
+    .Contact {
+        top: 8%;
+    }
+}
+
+@media (max-width:1200px) {
+    .Contact {
+        top: 12%;
+    }
+}
+
+/* media screen 992  */
+/* navbar media */
 @media (max-width:992px) {
     nav ul {
         position: fixed;
@@ -128,9 +485,12 @@ header {
         line-height: 4;
     }
 
-
     .nav_left {
         left: 0;
+    }
+
+    .w_50_lg {
+        width: 50% !important;
     }
 }
 
